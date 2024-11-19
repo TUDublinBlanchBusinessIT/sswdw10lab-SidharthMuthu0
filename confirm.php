@@ -17,7 +17,7 @@ else {
 include("dbcon.php");
 $sql = "insert into flightbooking(firstname,surname,bagsUnderTenKG,bagsOverTenKG) values ";
 
-$sql .= "('$fn','$sn','1','1')";
+$sql .= "('$fn','$sn','$subTenKG','$overTenKG')";
 
 //echo $sql;
 
